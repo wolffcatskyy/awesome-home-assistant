@@ -608,15 +608,15 @@ _Need a database, a reverse proxy, an MQTT broker (the messaging service many sm
 
 _Created and maintained by the Home Assistant team._
 
-- [DuckDNS](https://github.com/home-assistant/hassio-addons/blob/master/duckdns/DOCS.md) - Updates your Duck DNS IP address and generates SSL using Let's Encrypt.
-- [File editor](https://github.com/home-assistant/hassio-addons/blob/master/configurator/DOCS.md) - Browser-based configuration file editor.
-- [Mosquitto](https://github.com/home-assistant/hassio-addons/blob/master/mosquitto/DOCS.md) - Fast and reliable MQTT broker.
-- [Terminal & SSH](https://github.com/home-assistant/hassio-addons/blob/master/ssh/DOCS.md) - Allows logging in remotely using a web terminal or SSH client.
-- [Samba](https://github.com/home-assistant/hassio-addons/blob/master/samba/DOCS.md) - Access your configuration files using Windows network shares.
-- [NGINX SSL proxy](https://github.com/home-assistant/hassio-addons/blob/master/nginx_proxy/DOCS.md) - Reverse proxy with SSL termination.
-- [deCONZ](https://github.com/home-assistant/hassio-addons/blob/master/deconz/DOCS.md) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
-- [Let's Encrypt](https://github.com/home-assistant/hassio-addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
-- [MariaDB](https://github.com/home-assistant/hassio-addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
+- [DuckDNS](https://github.com/home-assistant/addons/blob/master/duckdns/DOCS.md) - Updates your Duck DNS IP address and generates SSL using Let's Encrypt.
+- [File editor](https://github.com/home-assistant/addons/blob/master/configurator/DOCS.md) - Browser-based configuration file editor.
+- [Mosquitto](https://github.com/home-assistant/addons/blob/master/mosquitto/DOCS.md) - Fast and reliable MQTT broker.
+- [Terminal & SSH](https://github.com/home-assistant/addons/blob/master/ssh/DOCS.md) - Allows logging in remotely using a web terminal or SSH client.
+- [Samba](https://github.com/home-assistant/addons/blob/master/samba/DOCS.md) - Access your configuration files using Windows network shares.
+- [NGINX SSL proxy](https://github.com/home-assistant/addons/blob/master/nginx_proxy/DOCS.md) - Reverse proxy with SSL termination.
+- [deCONZ](https://github.com/home-assistant/addons/blob/master/deconz/DOCS.md) - Control a ZigBee network using ConBee or RaspBee hardware by Dresden Elektronik.
+- [Let's Encrypt](https://github.com/home-assistant/addons/blob/master/letsencrypt/DOCS.md) - Get a free SSL certificate from Let's Encrypt; an open and automated certificate authority (CA).
+- [MariaDB](https://github.com/home-assistant/addons/blob/master/mariadb/DOCS.md) - An open source relational database (fork of MySQL).
 
 ### 📦 Third Party Apps
 
