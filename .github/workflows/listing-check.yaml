@@ -76,8 +76,30 @@ jobs:
             echo "has_errors=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: File issue from scheduled-run failure
+      - name: Upload scheduled report
         if: github.event_name == 'schedule' && steps.full.outputs.has_errors == 'true'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: scheduled-listing-report
+          path: report.md
+          retention-days: 1
+    outputs:
+      has_errors: ${{ steps.full.outputs.has_errors }}
+
+  report:
+    name: File scheduled listing report
+    needs: check
+    if: github.event_name == 'schedule' && needs.check.outputs.has_errors == 'true'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      issues: write
+    steps:
+      - name: Download scheduled report
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8
+        with:
+          name: scheduled-listing-report
+      - name: File issue from scheduled-run failure
         uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
         with:
           title: 'Listing check report'
