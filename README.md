@@ -565,7 +565,6 @@ _Hide the chrome, run full-screen, or turn an old tablet on the wall into a dedi
 
 _Frameworks that replace or extend the default Home Assistant dashboard with a different look and feel._
 
-- [Dwains Dashboard](https://github.com/dwainscheeren/dwains-lovelace-dashboard) - A fully auto-generating dashboard for desktop, tablet and mobile (2,048★).
 - [Mushroom Strategy](https://github.com/DigiLive/mushroom-strategy) - A strategy that automatically generates a dashboard using Mushroom cards (648★).
 
 ## Themes
@@ -661,7 +660,6 @@ _Some of the best smart-home gadgets do not exist as products you can buy, but o
 ### 🌉 DIY Gateways
 
 - [OpenMQTTGateway](https://github.com/1technophile/OpenMQTTGateway) - A flexible MQTT gateway for IR, RF, BLE, MiFlora, SMS, and many sensors (4,023★).
-- [esp8266 Milight Hub](https://github.com/sidoh/esp8266_milight_hub) - Alternative hub for Milight/LimitlessLED devices that uses MQTT (1,040★).
 
 ### 🔨 DIY Projects
 
